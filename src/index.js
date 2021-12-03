@@ -1,8 +1,14 @@
-import React        from 'react';
-import ReactDom     from 'react-dom';
-import CounterApp   from './CounterApp';
+import React                from 'react';
+import ReactDom             from 'react-dom';
+import GreetingComponent    from './GreetingComponent';
 import './index.css';
 
 const divRoot = document.querySelector('#root');
 
-ReactDom.render(<CounterApp value={0}/>, divRoot);
+ReactDom.render(
+    <GreetingComponent
+        greetingTitle={'Hi Developer!'}
+        greetingSubtitle={'¿Are you ready to code today?'}
+    />
+    , divRoot
+);
