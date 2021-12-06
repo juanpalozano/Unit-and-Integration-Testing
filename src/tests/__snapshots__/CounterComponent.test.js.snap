@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test File: CounterComponent.js The component should display correctly the Counter Component with the default values. 1`] = `
+<div>
+  <h1>
+    CounterComponent
+  </h1>
+  <h2>
+    10
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    +1
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -1
+  </button>
+</div>
+`;

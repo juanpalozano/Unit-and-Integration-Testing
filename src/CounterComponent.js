@@ -1,7 +1,7 @@
 import React, { useState }from "react";
 import PropTypes from "prop-types";
 const CounterComponent = ({value}) => {
-    const [ counter, setCounter ] = useState( 0 );
+    const [ counter, setCounter ] = useState( value );
     const handdleAdd = (e) => setCounter( counter + 1 );
     const handdleSubstract = (e) => setCounter( counter - 1 );
     const handdleReset = (e) => setCounter( value );
@@ -19,6 +19,6 @@ CounterComponent.propTypes = {
     value: PropTypes.number.isRequired
 }
 CounterComponent.defaultProps = {
-    value: 10052021,
+    value: 10,
 }
 export default CounterComponent;
